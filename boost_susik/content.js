@@ -120,9 +120,9 @@ document.body.addEventListener('mouseup', e => {
             img.src=response;
             
             function start(){
-                ratio = img.width/window.screen.width;
-                ratio = ratio*(window.devicePixelRatio/2);
                 //화면 비율에 따라 원래 설정한 좌표 및 길이와 캡쳐본에서의 좌표와 길이가 다를 수가 있어서, 그에 대응하는 비율을 곱해줌
+                ratio = img.width/window.innerWidth;
+                
                 
                 var croppedURL=cropPlusExport(img,x*ratio,y*ratio,w*ratio,h*ratio);
                 var cropImg=new Image();
