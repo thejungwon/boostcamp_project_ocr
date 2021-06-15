@@ -7,7 +7,7 @@
 ### Install
 
 #### Server
-현재 서버는 모델관련된 코드가 적용되어 있지 않습니다. 이 부분은 대회를 위한 inference코드를 수정하여서 적용해주세요
+현재 서버코드는 모델관련된 코드가 적용되어 있지 않습니다. 이 부분은 대회에서 사용하셨던 inference코드를 수정하여서 적용해주세요
 ```
 pip install -r requirements.txt
 python main.py
