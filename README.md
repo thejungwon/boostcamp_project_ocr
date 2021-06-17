@@ -24,3 +24,7 @@ python main.py
 
 
 
+## Trouble Shooting
+Mixed Content Error
+- HTTPS로 되어있는 웹사이트에서 Ai Stages 서버 (HTTP)로 요청을 보내면 mixed content error가 뜨면서 요청이 보내지지 않습니다. 이런경우 크롬에서 여러분들의 서버 주소를 허용해주는 식으로 우회를 하시면 됩니다!
+  - 본인의 환경에서 시연하는 경우에는 크롬에서 `chrome://flags/#unsafely-treat-insecure-origin-as-secure` 에 현재 서버 주소를 입력하는 식으로 우회할 수 있습니다.
